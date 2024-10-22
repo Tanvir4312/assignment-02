@@ -26,6 +26,14 @@
 }
 
 /* Shared */
+.primary-color {
+    color: rgb(255, 255, 255);
+}
+
+.primary-font-size {
+    font-size: 14px;
+}
+
 .text-color {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -93,7 +101,7 @@
 }
 
 .banner-context {
-   
+
     margin-right: 165px;
 
 }
@@ -114,8 +122,11 @@
     border: none;
 }
 
-.banner-image{
+.banner-image {
     margin-left: 50px;
+}
+.banner-image img {
+ height: 500px;
 }
 
 
@@ -173,7 +184,7 @@
     margin-left: -120px;
     align-items: center;
     gap: 15px;
-    
+
 }
 
 .fa-brands {
@@ -182,4 +193,42 @@
     border-radius: 50%;
     text-align: center;
 
+}
+
+/* Habits container */
+.habits-container {
+    padding-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+    text-align: center;
+}
+.habits-container h1{
+    margin-bottom: 15px;
+    font-size: 48px;
+    font-weight: 900;
+  
+}
+
+.habits-image-container{
+    gap: 40px;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.habits-image{
+    width: 200px;
+}
+
+.habits-image p{
+    font-size: 18px;
+font-weight: 600;
+
+}
+.habits-image img{
+   
+   border-radius: 50%;
+}
+
+.hidden{
+    display: none;
 }

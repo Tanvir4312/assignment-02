@@ -67,5 +67,17 @@
         margin-left: 0;
     }
 
+    /* Habits */
+.habits-container{
+    margin-top: 100px;
+    width: 100%;
+}
+
+    .habits-image-container{
+        flex-direction: column;
+       
+        align-items: center;
+    }
+
 
 }
