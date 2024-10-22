@@ -28,12 +28,12 @@
     }
 
     .banner-context {
-   
+
         margin-right: 0;
-    
+
     }
 
-    .banner-button{
+    .banner-button {
         display: flex;
     }
 
@@ -41,26 +41,27 @@
 
         margin-left: 20px;
     }
-  
+
     .btn-primary {
-      
+
         padding: 10px 20px;
-       
+
         font-size: 18px;
         font-weight: 600;
-    
-    
+
+
     }
 
     #outline-button {
-      
-     
-        padding:10px 20px;
-     
+
+
+        padding: 10px 20px;
+
         font-size: 18px;
         font-weight: 600;
-    
+
     }
+
     .tutorial-videos-container {
 
         margin-top: 55px;
@@ -68,16 +69,30 @@
     }
 
     /* Habits */
-.habits-container{
-    margin-top: 100px;
-    width: 100%;
-}
+    .habits-container {
+        margin-top: 100px;
+    }
 
-    .habits-image-container{
+    .habits-image-container {
         flex-direction: column;
-       
+
         align-items: center;
     }
 
+    /* Run container */
+    .run-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .run-context button {
+        width: 100%;
+    }
+
+    .run-img img {
+        width: 100%;
+
+    }
 
 }
