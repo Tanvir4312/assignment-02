@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    .header{
+        flex-direction: row;
+    }
     .icon {
         display: block;
     }
@@ -10,4 +13,21 @@
     .header{
         padding: 0 20px;
     }
+    /* Banner */
+    .banner-container{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .banner-image{
+      
+        margin-left: 40px;
+    }
+  
+    .tutorial-videos-container{
+       
+        margin-top: 55px;
+        margin-left: 0;
+    }
+   
+    
 }

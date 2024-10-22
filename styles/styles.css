@@ -1,12 +1,22 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
+
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
 
 * {
     margin: 0;
@@ -15,15 +25,34 @@
     color: white;
 }
 
+/* Shared */
+.text-color {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.flex {
+    display: flex;
+}
+
 /* Header */
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1050px;
     margin: 0 auto;
     margin-top: 57px;
-    margin-bottom: 55px;
+    margin-bottom: 80px;
 }
 
 .header-text {
@@ -51,6 +80,108 @@
     font-size: 18px;
 }
 
-.icon{
+.icon {
     display: none;
+}
+
+/* Banner */
+.banner-section {
+
+    width: 1050px;
+    margin: 0 auto;
+
+}
+
+.banner-context {
+    width:60%;
+    margin-right: 165px;
+
+}
+
+.banner-context h1 {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+
+}
+
+.banner-context p {
+    padding: 28px 0;
+}
+
+.banner-context button {
+    margin-right: 15px;
+    border: none;
+}
+
+.banner-image{
+    margin-left: 50px;
+}
+
+.banner-image img {
+    height: 500px;
+}
+
+#outline-button {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 16px 40px 16px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.total-videos {
+    width: 190px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px 23px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: -450px;
+    margin-left: 160px;
+}
+
+
+.total-videos p,
+.tutorial-videos-container div,
+.tutorial-videos p {
+    background-color: rgba(255, 255, 255, 0.001);
+}
+
+.videos-number,
+.tutorial-videos-number {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.free-workout,
+.video-tutorial-text {
+    font-size: 12px;
+}
+
+.tutorial-videos-container {
+    width: 210px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px 23px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 200px;
+    margin-left: -120px;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.fa-brands {
+    background-color: brown;
+    padding: 15px;
+    border-radius: 50%;
+    text-align: center;
+
 }
