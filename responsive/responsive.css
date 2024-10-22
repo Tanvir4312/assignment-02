@@ -1,33 +1,71 @@
 @media screen and (max-width: 576px) {
-    .header{
+    .header {
         flex-direction: row;
     }
+
     .icon {
         display: block;
     }
 
-    .header a{
+    .header a {
         display: none;
     }
-    
-    .header{
+
+    .header {
+        width: 100%;
         padding: 0 20px;
     }
+
     /* Banner */
-    .banner-container{
+    .banner-section {
+        width: 100%;
+    }
+
+    .banner-container {
         flex-direction: column;
         padding-left: 20px;
+
     }
-    .banner-image{
-      
-        margin-left: 40px;
+
+    .banner-context {
+   
+        margin-right: 0;
+    
+    }
+
+    .banner-button{
+        display: flex;
+    }
+
+    .banner-image {
+
+        margin-left: 20px;
     }
   
-    .tutorial-videos-container{
+    .btn-primary {
+      
+        padding: 10px 20px;
        
+        font-size: 18px;
+        font-weight: 600;
+    
+    
+    }
+
+    #outline-button {
+      
+     
+        padding:10px 20px;
+     
+        font-size: 18px;
+        font-weight: 600;
+    
+    }
+    .tutorial-videos-container {
+
         margin-top: 55px;
         margin-left: 0;
     }
-   
-    
+
+
 }

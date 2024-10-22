@@ -49,7 +49,7 @@
 .header {
     justify-content: space-between;
     align-items: center;
-    width: 1050px;
+    width: 80%;
     margin: 0 auto;
     margin-top: 57px;
     margin-bottom: 80px;
@@ -87,13 +87,13 @@
 /* Banner */
 .banner-section {
 
-    width: 1050px;
+    width: 80%;
     margin: 0 auto;
 
 }
 
 .banner-context {
-    width:60%;
+   
     margin-right: 165px;
 
 }
@@ -118,9 +118,7 @@
     margin-left: 50px;
 }
 
-.banner-image img {
-    height: 500px;
-}
+
 
 #outline-button {
     border: 1px solid rgb(255, 255, 255);
