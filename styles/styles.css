@@ -126,8 +126,9 @@
 .banner-image {
     margin-left: 50px;
 }
+
 .banner-image img {
- height: 500px;
+    height: 500px;
 }
 
 
@@ -199,45 +200,47 @@
 /* Habits container */
 .habits-container {
     padding-top: 100px;
-  width: 80%;
-  margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
 }
-.habits-container h1{
+
+.habits-container h1 {
     margin-bottom: 15px;
     font-size: 48px;
     font-weight: 900;
-  
+
 }
 
-.habits-image-container{
+.habits-image-container {
     gap: 40px;
     justify-content: center;
     margin-top: 55px;
     margin-bottom: 100px;
 }
 
-.habits-image{
+.habits-image {
     width: 200px;
 }
 
-.habits-image p{
+.habits-image p {
     font-size: 18px;
-font-weight: 600;
+    font-weight: 600;
 
 }
-.habits-image img{
-   
-   border-radius: 50%;
+
+.habits-image img {
+
+    border-radius: 50%;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
 /* Run-container */
-.run-container{
-  
+.run-container {
+
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -250,20 +253,133 @@ font-weight: 600;
 
 .run-container div,
 .run-context h1,
-.run-context p{
+.run-context p {
     background-color: rgb(34, 34, 34, 0.001);
 }
 
-.run-context h1{
+.run-context h1 {
     font-size: 48px;
-font-weight: 900;
+    font-weight: 900;
 }
 
-.run-context p{
+.run-context p {
     padding: 15px 0 35px 0;
 }
 
 .run-img img {
-   width: 370px;
-   border-radius: 15px;
+    width: 370px;
+    border-radius: 15px;
+}
+
+/* Calculate-section */
+.calculate-section {
+    background-color: rgb(34, 34, 34);
+    height: 480px;
+}
+
+.calculate-section div,
+.calculate-section h2,
+th,
+td{
+    background-color: rgb(34, 34, 34);
+
+}
+
+.calculate-container {
+    width: 80%;
+    margin: 0 auto;
+    gap: 175px;
+    padding-top: 40px;
+}
+
+.bmi-chart{
+    width: 320px;
+}
+
+.bmi-chart h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+   
+}
+
+th,
+td {
+   padding: 18px 30px 18px 25px;
+}
+
+.bmi-chart th{
+    font-size: 16px;
+font-weight: 500;
+}
+.bmi-chart td{
+    font-size: 14px;
+
+}
+
+.bmi-calculate{
+    width: 580px;
+}
+
+.bmi-calculate h2{
+    font-size: 28px;
+    font-weight: 900;
+}
+.bmi-calculate p{
+    background-color: rgb(34, 34, 34);
+   padding: 15px 0 35px 0;
+}
+.bmi-calculate input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+    margin: 10px 10px 10px 0;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+}
+.bmi-calculate-input
+{
+    display: inline;
+    position: relative;
+}
+.bmi-calculate-input select{
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    background: rgba(255, 255, 255, 0.001);
+}
+
+.bmi-calculate-input select,
+.bmi-calculate-textarea select{
+    border: none;
+}
+
+.bmi-calculate textarea{
+    padding: 13px 0 0 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.bmi-calculate-textarea{
+    position: relative;
+}
+
+.bmi-calculate-textarea select{
+    position: absolute;
+    right: 120px;
+    top: 17px;
+    background: rgba(255, 255, 255, 0.001);
 }

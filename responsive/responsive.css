@@ -71,6 +71,7 @@
     /* Habits */
     .habits-container {
         margin-top: 100px;
+        width: 100%;
     }
 
     .habits-image-container {
@@ -94,5 +95,26 @@
         width: 100%;
 
     }
+
+    /* Calculate */
+
+    .calculate-section {
+    
+       
+    }
+
+    .calculate-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .bmi-chart{
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    }
+    
+  
 
 }
