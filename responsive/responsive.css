@@ -100,7 +100,7 @@
 
     .calculate-section {
     
-       
+      width: 100%;
     }
 
     .calculate-container{
@@ -115,6 +115,25 @@
     background-color: rgb(34, 34, 34);
     }
     
-  
+  /* Review */
+  .review-section {
+
+   margin-top: 350px;
+   width: 100%;
+   
+   
+
+}
+.review-container{
+  width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+   
+    }
+
+    .review-section{
+     
+       
+    }
 
 }
