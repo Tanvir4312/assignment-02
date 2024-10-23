@@ -275,6 +275,7 @@
 .calculate-section {
     background-color: rgb(34, 34, 34);
     height: 480px;
+    margin-bottom: 100px;
 }
 
 .calculate-section div,
@@ -384,10 +385,54 @@ font-weight: 500;
     background: rgba(255, 255, 255, 0.001);
 }
 
+/* Team */
+
+
+   
+
+.team-section{
+    width: 80%;
+    margin: 0 auto;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    /* height: 100%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-section div,
+.team-section h1,
+.team-section p{
+    background-color: rgba(255, 255, 255, 0.001);
+}
+
+.team-image{
+   
+    width: 327px;
+    position: relative;
+   
+}
+.image-content{
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+}
+.team-image img{
+    border-radius: 8px;
+   width: 100%;
+   height: 280px;
+   
+}
+
+
+
 /* Review */
 .review-section {
 
-   
+   /* margin-top: 300px; */
     width: 80%;
     margin: 0 auto;
 
@@ -420,3 +465,6 @@ gap: 15px;
     justify-content: space-between;
     align-items: center;
 }
+
+
+

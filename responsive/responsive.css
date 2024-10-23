@@ -24,13 +24,10 @@
     .banner-container {
         flex-direction: column;
         padding-left: 20px;
-
     }
 
     .banner-context {
-
         margin-right: 0;
-
     }
 
     .banner-button {
@@ -38,32 +35,22 @@
     }
 
     .banner-image {
-
         margin-left: 20px;
     }
 
     .btn-primary {
-
         padding: 10px 20px;
-
         font-size: 18px;
         font-weight: 600;
-
-
     }
 
     #outline-button {
-
-
         padding: 10px 20px;
-
         font-size: 18px;
         font-weight: 600;
-
     }
 
     .tutorial-videos-container {
-
         margin-top: 55px;
         margin-left: 0;
     }
@@ -76,7 +63,6 @@
 
     .habits-image-container {
         flex-direction: column;
-
         align-items: center;
     }
 
@@ -93,47 +79,51 @@
 
     .run-img img {
         width: 100%;
-
     }
 
     /* Calculate */
 
     .calculate-section {
-    
-      width: 100%;
+        width: 100%;
     }
 
-    .calculate-container{
+    .calculate-container {
         flex-direction: column;
         width: 100%;
         padding: 15px;
         gap: 20px;
     }
 
-    .bmi-chart{
-    width: 100%;
-    background-color: rgb(34, 34, 34);
-    }
-    
-  /* Review */
-  .review-section {
-
-   margin-top: 350px;
-   width: 100%;
-   
-   
-
-}
-.review-container{
-  width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-    padding: 20px;
-   
+    .bmi-chart {
+        width: 100%;
+        background-color: rgb(34, 34, 34);
     }
 
-    .review-section{
-     
-       
+    /* Team */
+    .team-section {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin-top: 380px;
+    }
+
+    .team-image img {
+        width: 100%;
+    }
+
+    .image-content {
+        padding-left: 35px;
+    }
+
+    /* Review */
+    .review-section {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .review-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
     }
 
 }
